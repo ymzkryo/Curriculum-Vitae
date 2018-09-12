@@ -5,31 +5,28 @@
 |key|value|
 |---|-----|
 |Name|山崎 亮 (Yamazaki Ryo))|
-|Blog|[blog.yamachaaan.net](https://blog.yamachaaan.net)|
-|Twitter|[@yamachaaan](https://twitter.com/ymzkryo)|
-|Qiita|[yamachaaan](http://qiita.com/yamachaaan)|
 
 ## スキル
 
 ### 言語
 
 - Java
-  - 読み書き
+- 読み書き
 - Python3.x
-  - 読み書き
+- 読み書き
 - HTML / CSS
-  - 読み書き
+- 読み書き
 - Javascript
-  - 読み書き
+- 読み書き
 - php
-  - 読み
+- 読み
 - 日本語
-  - ネイティブ
+- ネイティブ
 - 英語
-  - 日常会話ができる
-  - ドキュメント読める
+- 日常会話ができる
+- ドキュメント読める
 - タイ語
-  - 簡単な日常会話ができる
+- 簡単な日常会話ができる
 
 ### フレームワーク
 
@@ -58,15 +55,15 @@
 - 派遣先: メーカー子会社SE
 
 Webアプリケーション作成  
- - Java
- - Oracle
- - AWS
- - python3.x
-  
+- Java
+- Oracle
+- AWS
+- python3.x
+
 Windowsフォームアプリケーション作成  
- - C#
- - MySQL
- 
+- C#
+- MySQL
+
 
 ### 2016/09 - 2016/10: 株式会社ヒューマンリレーションズ
 
@@ -77,7 +74,6 @@ Windowsフォームアプリケーション作成
 - Webサイトの高速化
 - 各ログの取得/GUI表示
 
-会社がブラック過ぎる&求人内容と違い過ぎて試用期間内で自主退社
 
 ### 2015/10 - 2016/09: 株式会社オリエンスカンパニー
 
@@ -95,14 +91,3 @@ Windowsフォームアプリケーション作成
 - MSofficeの教育
 - Photshopの教育
 
-### 2014/08 - 2015/08: 大阪レンタルスペース-afu-
-
-職務: 会場管理運営
-
-#### 会場管理運営
-
-- レンタルスペース業務
-- 利用希望から利用完了まで
-- SNSでの告知
-
-プログラミングはほとんどやっていない期間
