@@ -4,13 +4,12 @@
 
 |key|value|
 |---|-----|
-|Name|ymzkryo (Ryo Yamazaki)|
+|Name|山崎 亮(Ryo Yamazaki)|
+|生年月日|1989/06/14|
 |Twitter|[@ymzkryo](https://twitter.com/ymzkryo)|
 |Blog|[yamachaaan.net](https://yamachaaan.net)|
 
-- 山崎 亮
-- 1989/06/14生
-- 山口県出身
+---
 
 ## スキル
 
@@ -71,6 +70,8 @@
 
 - Swift
 - Kotlin
+
+---
 
 ## 職務経歴
 
