@@ -13,6 +13,8 @@
 
 ## 保有スキル
 
+- Python/Flask,DjangoによるRESTFulAPIの作成
+
 
 ## 技術スタック
 
