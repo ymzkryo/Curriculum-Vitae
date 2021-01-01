@@ -21,3 +21,12 @@ License:
 Author:
 -------
 ymzkryo
+
+```
+yarn lint --fix
+yarn build:pdf
+
+git commit -m"update"
+git tag vX.X
+git push origin --tags
+```
