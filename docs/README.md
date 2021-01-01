@@ -14,11 +14,11 @@
 ## 保有スキル
 
 - Python/Flask,Django による RESTFulAPI の作成
-- Ruby on RailsによるAPIの作成
-- SpringによるWebアプリケーションの作成
-- AWSサービスを使ったインフラの構築
-- Git/Githubを使ったチーム開発
-- Docker/Docker Composeを使った環境構築
+- Ruby on Rails による API の作成
+- Spring による Web アプリケーションの作成
+- AWS サービスを使ったインフラの構築
+- Git/Github を使ったチーム開発
+- Docker/Docker Compose を使った環境構築
 
 
 ## 技術スタック
@@ -83,20 +83,20 @@
 #### API作成
 
 担当： バックエンド設計  
-DjangoによるAPIを設計
+Django による API を設計
 
 #### APIインフラ構築
 
-担当： インフラ構築  
+担当： インフラ構築
 
-Ruby on Rails製のAPIをAWSを活用したデプロイ環境を構築  
+Ruby on Rails 製の API を AWS を活用したデプロイ環境を構築
 
 
 #### ソフトウェア受託開発
 
 担当： バックエンド実装
 
-Django製のAPIをAWSを活用したデプロイ環境を構築
+Django 製の API を AWS を活用したデプロイ環境を構築
 
 
 ### 2019/06 - 2020/09:D社
@@ -107,8 +107,8 @@ Django製のAPIをAWSを活用したデプロイ環境を構築
 
 - 要求分析から参加
 - AWS 上で完結
-- バックエンドに Flask REST APIを使用
-- フロントエンドに React.jsを使用
+- バックエンドに Flask REST API を使用
+- フロントエンドに React.js を使用
 
 #### 某受発注Webアプリの保守
 
@@ -123,19 +123,19 @@ Django製のAPIをAWSを活用したデプロイ環境を構築
 
 #### 自社サーバのAWS移行
 
-- CentOS6 系で動いていたサーバをAWS EC2 に移行
-- データベースをAWS RDS(MySQL) に移行
-- PHP 5.6 系だったサービスを全てPHP7.1 系に移行
+- CentOS6 系で動いていたサーバを AWS EC2 に移行
+- データベースを AWS RDS(MySQL) に移行
+- PHP 5.6 系だったサービスを全て PHP 7.1 系に移行
 
 #### 大学、専門学校など向けWebサービスのバックエンド
 
-- PHP 5.6 系で開発されたバックエンドを7.1 系に移行
+- PHP 5.6 系で開発されたバックエンドを 7.1 系に移行
 - API 周り、フロント側の修正も担当
 - とにかく余計な処理が多かったので大規模なリファクタリングを実施
 
 #### サーバの監視
 
-- Zabbix/Nagiosをつかったサーバの死活監視
+- Zabbix/Nagios をつかったサーバの死活監視
 - アラートを Slack に通知
 
 ### 2016/11 - 2018/12:F社
@@ -145,9 +145,9 @@ Django製のAPIをAWSを活用したデプロイ環境を構築
 #### 某紡績機械のBIツールの作成
 
 - Java(Spring)を使った BI ツールの作成
-- データの処理に Lambdaを使用
+- データの処理に Lambda を使用
 - Selenium を使った自動テストの構築
-- Jenkins を使った CIの構築
+- Jenkins を使った CI の構築
 
 
 #### グループ会社向け自動搬入出アプリ
