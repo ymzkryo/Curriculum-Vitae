@@ -5,5 +5,19 @@ Curriculum-Vitae
 ![build pdf](https://github.com/ymzkryo/Curriculum-Vitae/workflows/build%20pdf/badge.svg?branch=master)
 ![create issue](https://github.com/ymzkryo/Curriculum-Vitae/workflows/create%20issue/badge.svg?event=issues)
 
-Author:ymzkryo
+
+Usage:
+------
+
+Requirements:
+-------------
+
+Install:
+--------
+
+License:
+--------
+
+Author:
 -------
+ymzkryo
