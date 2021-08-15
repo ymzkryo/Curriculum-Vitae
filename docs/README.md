@@ -30,6 +30,7 @@
     - Python
     - HTML / CSS
     - JavaScript
+    - TypeScript
     - PHP
     - Golang
     - C#
@@ -40,6 +41,7 @@
 #### フロントエンド
 
 - Vue.js
+- React.js
 
 #### バックエンド
 
@@ -49,6 +51,16 @@
 - Wordpress
 - jekyll
 - pelican
+- Rails
+
+
+#### データベース
+
+- MySQL
+- AWS Aurora
+- MariaDB
+- SQLite
+- Redis
 
 #### インフラ
 
@@ -59,8 +71,20 @@
     - CloudFront
     - ECS/ECR
     - Route53
+    - ElastiCache
 - Docker
     - Docker Compose
+
+#### OS
+
+- macOS
+- Windows10
+- Linux
+    - AmazonLinux2
+    - CentOS7
+    - CentOS8
+    - KaliLinux
+    - ArchLinux
 
 #### その他
 
