@@ -52,6 +52,7 @@
 - jekyll
 - pelican
 - Rails
+- EC-CUBE
 
 #### データベース
 
@@ -74,6 +75,7 @@
     - ElastiCache
 - Docker
     - Docker Compose
+- Terraform
 
 #### OS
 
@@ -85,6 +87,7 @@
     - CentOS8
     - KaliLinux
     - ArchLinux
+    - Debian
 
 #### その他
 
