@@ -56,6 +56,7 @@
 #### データベース
 
 - MySQL
+- Postgres
 - AWS Aurora
 - MariaDB
 - SQLite
