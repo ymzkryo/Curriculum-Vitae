@@ -6,7 +6,11 @@
 |---|-----|
 |Name|山崎 亮（Ryo Yamazaki)|
 |生年月日|1989/06/14|
-|Twitter|[@ymzkryo](https://twitter.com/ymzkryo)|
+
+<p>
+<a href="https://github.com/ymzkryo" target="_blank"><img alt="Github" src="https://img.shields.io/badge/ymzkryo-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
+<a href="https://twitter.com/ymzkryo" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@ymzkryo-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
+</p>
 
 ---
 
@@ -19,87 +23,78 @@
 - Git/Github を使ったチーム開発
 - Docker/Docker Compose を使った環境構築
 
+---
+
 
 ## 技術スタック
 
 ### 言語
 
-- プログラミング言語
-    - Python
-    - Java
-    - HTML/CSS
-    - JavaScript
-    - TypeScript
-    - PHP
-    - Golang
-    - C#
-    - Ruby
-    - Perl
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />
+  <img alt="Golang" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=Go&logoColor=white" />
+</p>
+<p>
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+  <img alt="PHP" src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=PHP&logoColor=white" />
+  <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />
+  <img alt="Perl" src="https://img.shields.io/badge/-Perl-39457E?style=flat-square&logo=Perl&logoColor=white" />
+  <img alt="C Sharp" src="https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=CSharp&logoColor=white" />
+</p>
 
-### フレームワーク・その他
+### フレームワーク
 
-#### フロントエンド
+<p>
+  <img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=Django&logoColor=white" />
+  <img alt="Flask" src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=Flask&logoColor=white" />
+  <img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />
+  <img alt="Spring" src="https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+</p>
+<p>
+  <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+</p>
+<p>
+  <img alt="Pelican" src="https://img.shields.io/badge/-Pelican-14A0C4?style=flat-square&logo=Pelican&logoColor=white" />
+  <img alt="jekyll" src="https://img.shields.io/badge/-jekyll-CC0000?style=flat-square&logo=jekyll&logoColor=white" />
+  <img alt="Wordpress" src="https://img.shields.io/badge/-Wordpress-21759B?style=flat-square&logo=Wordpress&logoColor=white" />
+</p>
 
-- Vue.js
-- React.js
+### インフラ
 
-#### バックエンド
+<p>
+  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+  <img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=AmazonAWS&logoColor=white" />
+  <img alt="Terraform" src="https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=Terraform&logoColor=white" />
+</p>
 
-- Flask
-- Django
-- Spring
-- Wordpress
-- jekyll
-- pelican
-- Rails
-- EC-CUBE
+### データベース
 
-#### データベース
+<p>
+  <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" />
+  <img alt="Postgres" src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white" />
+  <img alt="SQLite" src="https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=SQLite&logoColor=white" />
+  <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=Redis&logoColor=white" />
+</p>
 
-- MySQL
-- Postgres
-- AWS Aurora
-- MariaDB
-- SQLite
-- Redis
 
-#### インフラ
+### その他
 
-- AWS
-    - EC2
-    - RDS
-    - Lambda
-    - CloudFront
-    - ECS/ECR
-    - Route53
-    - ElastiCache
-- Docker
-    - Docker Compose
-- Terraform
-
-#### OS
-
-- macOS
-- Windows10
-- Linux
-    - AmazonLinux2
-    - CentOS7
-    - CentOS8
-    - KaliLinux
-    - ArchLinux
-    - Debian
-
-#### その他
-
-- Git
-    - github
-    - gitlab
-- Vim
-- Apache
-- nginx
-- Redmine
-- Jenkins
-- CircleCI
+<p>
+  <img alt="Vim" src="https://img.shields.io/badge/-Vim-019733?style=flat-square&logo=Vim&logoColor=white" />
+  <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=GitHub&logoColor=white" />
+  <img alt="GitLab" src="https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=GitLab&logoColor=white" />
+  <img alt="nginx" src="https://img.shields.io/badge/-NGINX-009639?style=flat-square&logo=NGINX&logoColor=white" />
+  <img alt="Apache" src="https://img.shields.io/badge/-Apache-D22128?style=flat-square&logo=Apache&logoColor=white" />
+  <img alt="Redmine" src="https://img.shields.io/badge/-Redmine-DC382D?style=flat-square&logo=Redmine&logoColor=white" />
+</p>
+<p>
+  <img alt="GithubActions" src="https://img.shields.io/badge/-GitHubActions-2088FF?style=flat-square&logo=GitHubActions&logoColor=white" />
+  <img alt="CircleCI" src="https://img.shields.io/badge/-CircleCI-343434?style=flat-square&logo=CircleCI&logoColor=white" />
+  <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white" />
+</p>
 
 ---
 
@@ -129,6 +124,8 @@
 - AWS APIGateway
 - AWS Lambda
 - AWS S3
+
+---
 
 ### 案件名
 
@@ -160,6 +157,8 @@
 
 - WordPress
 - AWS
+
+---
 
 ### 案件名
 
@@ -201,6 +200,8 @@
 - Redis
 - nginx
 
+---
+
 ### 案件名
 
 - 留学生向け大学、専門学校など入学願書登録システムの開発案件
@@ -234,6 +235,7 @@
 - Python
 - ShellScript
 
+---
 
 ### 案件名
 
@@ -271,6 +273,7 @@
 - Docker
 - React.js
 
+---
 
 ### 案件名
 
@@ -303,6 +306,8 @@
 - ECCube
 - AWS
 
+---
+
 ### 案件名
 
 - オンプレサーバの AWS 移行案件
@@ -333,6 +338,8 @@
 
 - AWS
 - PHP
+
+---
 
 ### 案件名
 
@@ -368,6 +375,7 @@
 - Nagios
 - Perl
 
+---
 
 ### 案件名
 
@@ -401,6 +409,8 @@
 - AWS
 - Java
 - Spring
+
+---
 
 ### 案件名
 
