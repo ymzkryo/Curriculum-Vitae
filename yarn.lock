@@ -2060,7 +2060,7 @@ match-index@^1.0.1, match-index@^1.0.3:
   dependencies:
     regexp.prototype.flags "^1.1.1"
 
-md-to-pdf@^5.0.0:
+md-to-pdf@^5.2.4:
   version "5.2.4"
   resolved "https://registry.yarnpkg.com/md-to-pdf/-/md-to-pdf-5.2.4.tgz#a81fa2e07fa36756828d0f84f7eeb59d3078fb05"
   integrity sha512-s6080i4ZSBfvn7qplSVjdqP9eWi9rIWj+t5pucEKnpAHan89VLQuQPhVx06vWIM+6JX2HrJ1wNRFMiwLlS01vg==
