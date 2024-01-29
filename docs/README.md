@@ -9,7 +9,6 @@
 
 <p>
 <a href="https://github.com/ymzkryo" target="_blank"><img alt="Github" src="https://img.shields.io/badge/ymzkryo-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
-<a href="https://twitter.com/ymzkryo" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/@ymzkryo-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" /></a>
 </p>
 
 ---
@@ -118,6 +117,88 @@
 
 ### 案件名
 
+- エンターテイメント系 Web サイトの BackendAPI 開発
+
+### 期間
+
+- 2022 年 9 月~ 
+
+### 担当業務
+
+- API 設計
+- API 実装
+- レビュー
+
+### 役割・規模
+
+- チーム人数： 5 人
+
+### 言語・ツール・インフラ
+
+- Python
+- Docker
+- Docker-Compose
+- DynamoDB
+
+### 案件名
+
+- エンターテイメント系アプリケーションの BackendAPI 開発
+
+### 期間
+
+- 2022 年 6 月~ 
+
+### 担当業務
+
+- API 設計
+- API 実装
+- API テスト
+- DB スキーマ設計
+- Docker, Docker-Compose による開発環境構築
+- レビュー
+
+### 役割・規模
+
+- チーム人数： 8 人
+
+### 言語・ツール・インフラ
+
+- Python
+- fastAPI
+- AWS
+    + Lambda
+    + APIGateway
+    + DynamoDB
+    + S3
+    + CloudFront
+    + CloudWatch
+    + ECS
+    + ECR
+    + RDS(Aurora)
+- Docker
+- Docker-Compose
+
+### 案件名
+
+- 教育サービス系 Web アプリの開発
+
+### 期間
+
+- 2023 年 10 月~ 2023 年 10 月
+
+### 担当業務
+
+- バックエンド API 開発
+
+
+### 役割・規模
+
+- チーム人数： 6 人
+
+### 言語・ツール・インフラ
+
+- Elixir
+=======
 - エンタメ系Appのバックエンド開発業務
 
 ### 期間
@@ -162,7 +243,6 @@
 
 - Microsoft Excel
 - Direct Cloud
-
 
 ### 案件名
 
@@ -502,7 +582,7 @@ PHP のバージョンを 5 系から 7 系へ移行する際に、全体のリ�
 サービスが乗っているオンプレサーバのスペックが低く大量のバッチ処理を行うと  
 サーバへの負荷が増加し、サーバの再起動を行わないとサービスが再開しない状態からスタートした。  
 そのため、まずは足りてないスペックはどこかを突き止めるためにシステムの監視を行った。  
-監視した結果を slack に通知するために Perl で簡単なスクリプトを書いた。
+監視した結果を slack へ通知するために Perl で簡単なスクリプトを書いた。
 
 ### サーバOS
 
