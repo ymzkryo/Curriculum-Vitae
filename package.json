@@ -34,5 +34,8 @@
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yarn": "^1.22.21"
+  }
 }
