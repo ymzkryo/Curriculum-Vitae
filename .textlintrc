@@ -12,7 +12,10 @@
         "max": 3
       },
       "max-kanji-continuous-len": {
-        "max": 6
+        "max": 6,
+        "allow": [
+            "領収書発行機能"
+        ]
       },
       "arabic-kanji-numbers": true,
       "no-mix-dearu-desumasu": {
