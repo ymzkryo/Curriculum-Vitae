@@ -14,7 +14,7 @@
 ## スキル
 
 - **RESTful API 開発**  
-  Python（Flask、Django、FastAPI）や Ruby on Rails を使用した高効率な RESTful API の設計・実装に豊富な経験。数万件/秒のリクエストに耐えるスケーラブルな API を構築
+  Python（Flask、Django、FastAPI）や Ruby on Rails , Golang を使用した高効率な RESTful API の設計・実装に豊富な経験。数万件/秒のリクエストに耐えるスケーラブルな API を構築
 - **AWS を活用したインフラ構築**  
   EC2、S3、Lambda、RDS、CloudFront、API Gateway などの AWS サービスを活用し、セキュアでスケーラブルなクラウド環境を構築
 - **CI/CD パイプラインの導入**  
@@ -56,7 +56,7 @@
 |<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />|6年|
 |<img alt="PHP" src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=PHP&logoColor=white" />|5年|
 |<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|3年|
-|<img alt="Golang" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=Go&logoColor=white" />|2年|
+|<img alt="Golang" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=Go&logoColor=white" />|3年|
 |<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />|2年|
 |<img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />|1年|
 |<img alt="C Sharp" src="https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=CSharp&logoColor=white" />|1年|
@@ -77,6 +77,36 @@
 ---
 
 ## 職務経歴詳細
+
+### ホテル空室照会APIサービスの開発
+
+**期間** 2025 年 6 月 ～ 現在
+**チーム規模** 3 名
+
+#### 担当業務
+
+- gRPC/Connect RPCベースのストリーミングAPIの設計・実装
+- Protocol Buffersによるスキーマ定義とコード生成
+- Oracle Databaseと連携した空室・料金データの取得処理実装
+- モックを活用した単体テスト作成
+
+#### 使用技術
+
+- プログラミング言語： Go 1.24
+- プロトコル/フレームワーク： gRPC/Connect RPC/Protocol Buffers
+- データベース： Oracle Database(godror)
+- インフラ/ツール： Docker/DockerCompose/buf/Air
+
+#### 成果
+
+- 既存PHPシステムからGolangへのリプレース
+- B2B, B2C向けの6種類の空室照会APIを実装
+- ストリーミングレスポンスにより大量データの効率的配信を実現
+- ホットリロード開発環境の構築により開発効率を向上
+
+
+
+---
 
 ### 製造業向けAI製造管理システムの開発
 **期間** 2025 年 2 月 ～ 2025 年 4 月  
