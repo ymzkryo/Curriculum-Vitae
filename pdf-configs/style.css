@@ -10,14 +10,15 @@ h1:first-child {
 }
 
 table {
-  font-size: 11px;
+  font-size: 9px;
   border-collapse: collapse;
 }
 
 td,
 th {
   border: 1px solid #ddd;
-  padding: 5px;
+  padding: 3px 5px;
+  line-height: 1.2;
 }
 
 tr:nth-child(even) {
@@ -36,4 +37,52 @@ th {
 hr {
   border-top: 1px solid #ddd;
   margin: 30px 0;
+}
+
+/* ===== 改ページ制御 ===== */
+
+/* 技術スタックの前で改ページ */
+h2:nth-of-type(7) {
+  page-break-before: always;
+}
+
+/* h2見出しの直後で改ページしない（見出しだけが前ページに残らないように） */
+h2 {
+  page-break-after: avoid;
+}
+
+/* h3見出しの直後で改ページしない */
+h3 {
+  page-break-after: avoid;
+}
+
+/* h4見出しの直後で改ページしない */
+h4 {
+  page-break-after: avoid;
+}
+
+/* プロジェクトセクション全体で改ページしない */
+.project {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* テーブルの途中で改ページしない */
+table {
+  page-break-inside: avoid;
+}
+
+/* リストの途中で改ページしない（短いリストのみ） */
+ul {
+  page-break-inside: avoid;
+}
+
+/* 段落の途中で改ページしない */
+p {
+  page-break-inside: avoid;
+}
+
+/* hrの前後で改ページ可能（プロジェクト間での区切り） */
+hr {
+  page-break-after: auto;
 }
