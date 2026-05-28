@@ -89,8 +89,8 @@
 | JavaScript | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ 6年 | ⭐⭐⭐ |
 | PHP | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 5年 | ⭐⭐ |
 | Java | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
-| Go | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
-| TypeScript | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
+| Go | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ 4年 | ⭐⭐ |
+| TypeScript | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
 
 ### フレームワーク
 
@@ -155,11 +155,77 @@
 
 <div class="project" markdown="1">
 
+### セキュリティアラート初動対応自動化 SaaS の開発
+
+> SOC のセキュリティアラート Tier1 初動対応を自動化する AI SaaS の開発。リリース前の短期集中支援としてスポット参画
+
+- **期間**: 2026 年 4 月 ～ 2026 年 5 月（リリース前の短期集中支援によるスポット参画）
+- **チーム規模**: 2 名
+
+#### 使用技術
+<p>
+<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
+<img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white" />
+<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+<img alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=Next.js&logoColor=white" />
+<img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+<img alt="Terraform" src="https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white" />
+</p>
+
+#### 担当業務
+- FastAPI による AI 処理統合バックエンドの設計・実装
+- Amazon Bedrock を活用したルールベース判定・RAG・LLM 推論のハイブリッド AI 判定機能の実装
+- Next.js によるフロントエンド開発
+- Terraform を用いた AWS インフラ構築
+
+#### 成果
+- 3 段階ハイブリッド AI 判定によりコストを抑えつつ初動対応の自動化を実現
+- 専門知識がない担当者でも適切なセキュリティ初動対応が可能な仕組みを構築
+
+</div>
+
+---
+
+<div class="project" markdown="1">
+
+### スマートドローンAI解析プラットフォームの開発
+
+> ドローンの空撮映像をリアルタイムに AI 解析するクラウドプラットフォームの設計・開発
+
+- **期間**: 2026 年 2 月 ～ 現在
+- **チーム規模**: 5 名
+
+#### 使用技術
+<p>
+<img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=Go&logoColor=white" />
+<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+<img alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=Next.js&logoColor=white" />
+<img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+<img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+</p>
+
+#### 担当業務
+- Go (AWS Lambda) による映像フレームキャプチャ・AI 解析パイプラインの設計・実装
+- AWS IoT Core (MQTT) を活用したドローンテレメトリ連携の実装
+- WebRTC を用いたリアルタイム映像ストリーミング基盤の構築
+- SageMaker による AI 解析基盤と検知結果の位置推定処理の実装
+- AWS CDK / SAM を用いた IaC とサーバーレスアーキテクチャの構築
+
+#### 成果
+- 空撮映像のリアルタイム AI 解析とテレメトリ連携による検知結果の位置推定を実現
+- サーバーレスアーキテクチャによりスケーラブルな解析基盤を構築
+
+</div>
+
+---
+
+<div class="project" markdown="1">
+
 ### OCRによる納品書自動データ抽出システムのPoC開発
 
 > Google Cloud Document AI を活用した納品書の自動データ抽出システムの PoC 開発
 
-- **期間**: 2025 年 12 月 ～ 現在
+- **期間**: 2025 年 12 月 ～ 2026 年 3 月
 - **チーム規模**: 3 名
 
 #### 使用技術
@@ -241,6 +307,38 @@
 #### 成果
 - AI を活用した生産管理機能を追加
 - 既存コードのリファクタリングを行い、保守性を向上
+
+</div>
+
+---
+
+<div class="project" markdown="1">
+
+### キャンペーン抽選プラットフォームの開発
+
+> 飲料ブランド向け販促キャンペーンの抽選・特典付与プラットフォームの開発。複数ブランド・案件に対応するマルチテナント構成
+
+- **期間**: 2024 年 8 月 ～ 2024 年 12 月
+- **チーム規模**: 3 名
+
+#### 使用技術
+<p>
+<img alt="PHP" src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=PHP&logoColor=white" />
+<img alt="Laravel" src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
+<img alt="Oracle" src="https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
+<img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+</p>
+
+#### 担当業務
+- Laravel による抽選・当落画面・特典付与機能のバックエンド開発
+- LINE・楽天・PayPay などの外部 API 連携サービスの実装
+- Oracle Database を用いたデータ管理とマイグレーション設計
+- シーケンス図・処理フロー図の整備と PHPDoc によるドキュメント拡充
+
+#### 成果
+- 複数ブランド・案件に対応するマルチテナント構成のキャンペーン基盤を構築
+- 外部 API 連携を整理し、保守性の高いサービス層を実現
+- ドキュメント整備により後続メンバーのキャッチアップを容易化
 
 </div>
 
