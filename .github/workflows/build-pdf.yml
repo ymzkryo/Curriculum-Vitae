@@ -23,11 +23,21 @@ jobs:
       - name: build pdf
         run: pnpm run build:pdf
       - name: rename asset
-        run: cp docs/README.pdf resume.pdf
+        id: asset
+        # action-gh-release はファイル名がそのままアセット名になるため、
+        # タグ名を含むファイル名にコピーしてから添付する。
+        # ドットは紛らわしいのでハイフンに置換する (v26.7.0 -> v26-7-0)。
+        # タグ名は式に直接埋め込まず env 経由で渡す（コマンドインジェクション対策）
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          NAME="resume_${TAG//./-}.pdf"
+          cp docs/README.pdf "$NAME"
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
       - name: create release
         uses: softprops/action-gh-release@v2
         with:
           name: Release ${{ github.ref_name }}
           draft: false
           prerelease: false
-          files: resume.pdf
+          files: ${{ steps.asset.outputs.name }}

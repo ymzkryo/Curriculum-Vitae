@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "textlint docs/README.md",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "build:pdf:release": "pnpm run build:pdf && cp docs/README.pdf \"resume_$(date +%Y-%m).pdf\"",
     "prepare": "husky"
   },
   "repository": "git+ssh://git@github.com/ymzkryo/Curriculum-Vitae.git",
