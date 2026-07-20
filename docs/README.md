@@ -13,7 +13,7 @@
 
 ## 経歴サマリー
 
-バックエンドエンジニアとして **10年以上** の実務経験を持ち、Python・Go・TypeScript を中心とした RESTful API 開発と AWS を活用したインフラ構築を得意としています。近年は生成 AI を活用したプロダクト開発に軸足を移し、RAG やオンプレミス LLM 推論基盤の設計から、要件定義・提案・プロジェクト管理といった上流工程までを一貫して担当。パフォーマンス最適化やセキュリティ対策、CI/CD パイプラインの導入による開発効率の向上にも貢献してきました。
+バックエンドエンジニアとして**10年以上**の実務経験を持ち、Python・Go・TypeScript を中心とした RESTful API 開発と AWS を活用したインフラ構築を得意としています。近年は生成 AI を活用したプロダクト開発に軸足を移し、RAG やオンプレミス LLM 推論基盤の設計から、要件定義・提案・プロジェクト管理といった上流工程までを一貫して担当。パフォーマンス最適化やセキュリティ対策、CI/CD パイプラインの導入による開発効率の向上にも貢献してきました。
 
 ### 主な実績
 
@@ -191,7 +191,7 @@
 <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
 </p>
 
-推論基盤は Gemma（30B クラス）と vLLM、埋め込みと再ランクは TEI（BGE-M3 / BGE-reranker-v2-m3）、ベクトル DB は Qdrant を採用。GPU サーバは NVIDIA RTX 6000 Ada、実行基盤は MicroK8s と Podman（提案・設計段階のものを含む）
+推論基盤は Gemma（30B クラス）と vLLM、埋め込みと再ランクは TEI（BGE-M3/BGE-reranker-v2-m3）、ベクトル DB は Qdrant を採用。GPU サーバは NVIDIA RTX 6000 Ada、実行基盤は MicroK8s と Podman（提案・設計段階のものを含む）
 
 #### 担当業務
 - 要件ヒアリングと提案・見積、契約条件の設計（成果完成型の準委任、マイルストーン払い）
@@ -229,7 +229,7 @@
 <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 </p>
 
-初期調査・要件定義フェーズのため、実装言語とフレームワークは設計段階（TypeScript / React、Python / FastAPI、PostgreSQL + pgvector を構想）
+初期調査・要件定義フェーズのため、実装言語とフレームワークは設計段階（TypeScript/React、Python/FastAPI、PostgreSQL + pgvector を構想）
 
 #### 担当業務
 - クライアントへのヒアリングと営業プロセスの現状分析、失注要因の構造整理
@@ -303,7 +303,7 @@
 - AWS IoT Core (MQTT) を活用したドローンテレメトリ連携の実装
 - WebRTC を用いたリアルタイム映像ストリーミング基盤の構築
 - SageMaker による AI 解析基盤と検知結果の位置推定処理の実装
-- AWS CDK / SAM を用いた IaC とサーバーレスアーキテクチャの構築
+- AWS CDK/SAM を用いた IaC とサーバーレスアーキテクチャの構築
 
 #### 成果
 - 空撮映像のリアルタイム AI 解析とテレメトリ連携による検知結果の位置推定を実現
