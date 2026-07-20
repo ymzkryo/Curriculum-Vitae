@@ -13,7 +13,7 @@
 
 ## 経歴サマリー
 
-バックエンドエンジニアとして **10年以上** の実務経験を持ち、Python・Go・TypeScript を中心とした RESTful API 開発と AWS を活用したインフラ構築を得意としています。要件定義から設計・実装・運用保守まで一貫して対応可能で、パフォーマンス最適化やセキュリティ対策にも注力。CI/CD パイプラインの導入やコンテナ化による開発効率の向上にも貢献してきました。
+バックエンドエンジニアとして **10年以上** の実務経験を持ち、Python・Go・TypeScript を中心とした RESTful API 開発と AWS を活用したインフラ構築を得意としています。近年は生成 AI を活用したプロダクト開発に軸足を移し、RAG やオンプレミス LLM 推論基盤の設計から、要件定義・提案・プロジェクト管理といった上流工程までを一貫して担当。パフォーマンス最適化やセキュリティ対策、CI/CD パイプラインの導入による開発効率の向上にも貢献してきました。
 
 ### 主な実績
 
@@ -22,6 +22,8 @@
 - CI/CD パイプライン構築によるデプロイサイクルの 50％短縮
 - DDoS 攻撃対策によるシステムダウンタイムゼロの達成
 - 新人エンジニアの教育・メンタリングによるチーム生産性の向上
+- 生成 AI を活用した業務自動化プロダクトの立ち上げを、提案・要件定義から一貫してリード
+- オンプレミス LLM を用いた RAG 基盤を設計し、機密データを外部に出さない構成を実現
 
 ---
 
@@ -34,6 +36,7 @@
   - [言語](#言語)
   - [フレームワーク](#フレームワーク)
   - [インフラ・ツール](#インフラツール)
+  - [AI・LLM](#aillm)
 - [職務経歴詳細](#職務経歴詳細)
 
 ---
@@ -146,12 +149,103 @@
 | AWS | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 7年 | ⭐⭐⭐ |
 | Docker | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 5年 | ⭐⭐⭐ |
 | GitHub Actions | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
-| Kubernetes | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
+| Kubernetes | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
 | Terraform | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
+
+### AI・LLM
+
+<p>
+<img alt="Claude" src="https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=claude&logoColor=white" />
+<img alt="Amazon Bedrock" src="https://img.shields.io/badge/-Amazon_Bedrock-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+<img alt="Qdrant" src="https://img.shields.io/badge/-Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" />
+<img alt="Hugging Face" src="https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+</p>
+
+| 技術 | 経験 | レベル |
+|:-----|:-----|:-------|
+| LLM API 活用（Bedrock / Claude） | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
+| RAG・ベクトル DB | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 1年 | ⭐⭐ |
+| オンプレミス LLM 推論基盤（vLLM） | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 1年未満 | ⭐ |
 
 ---
 
 ## 職務経歴詳細
+
+<div class="project" markdown="1">
+
+### 社内規程 RAG チャットボットの構築（オンプレミス LLM 活用）
+
+> 社内規程・要則に関する問い合わせへ自動回答する、オンプレミス完結型の社内向け RAG チャットボット。機密データを外部に出さない構成を設計し、提案から開発まで一貫して担当
+
+- **期間**: 2026 年 5 月 ～ 現在（2027 年 3 月まで試験導入を予定）
+- **チーム規模**: 1 名（PM: クライアントの技術・総務担当と協働）
+
+#### 使用技術
+<p>
+<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
+<img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white" />
+<img alt="Qdrant" src="https://img.shields.io/badge/-Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" />
+<img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+<img alt="Podman" src="https://img.shields.io/badge/-Podman-892CA0?style=flat-square&logo=podman&logoColor=white" />
+<img alt="NVIDIA" src="https://img.shields.io/badge/-NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+<img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+</p>
+
+推論基盤は Gemma（30B クラス）と vLLM、埋め込みと再ランクは TEI（BGE-M3 / BGE-reranker-v2-m3）、ベクトル DB は Qdrant を採用。GPU サーバは NVIDIA RTX 6000 Ada、実行基盤は MicroK8s と Podman（提案・設計段階のものを含む）
+
+#### 担当業務
+- 要件ヒアリングと提案・見積、契約条件の設計（成果完成型の準委任、マイルストーン払い）
+- RAG アーキテクチャの設計。既存のオンプレミス LLM 資産を活かし、ベクトル DB と埋め込み・再ランクを組み合わせた構成を Kubernetes マニフェストとして定義
+- 開発環境の接続構築とトラブルシューティング（IP 制限付きの隔離環境へ Tailscale と VM 経由で VPN 接続を確立）
+- WBS・ガントチャート、要件一覧、課題管理、成果物一覧の整備・運用によるプロジェクト管理
+- データ整備方針の設計。規程文書の Markdown 構造化と、総務が自立運用できるメンテナンスツールの要件定義
+
+#### 成果
+- IP 制限付きの隔離環境という制約下で接続方式を確立し、開発着手を可能にした
+- 既存の LLM 推論基盤を再利用する構成を設計し、GPU の利用効率とコストを両立
+- 費用対効果と情報セキュリティ面の優位性を提示し、内製 RAG 構築案件の受注・契約締結に貢献
+
+</div>
+
+---
+
+<div class="project" markdown="1">
+
+### 営業プロセス AI 化プロダクトの立ち上げ
+
+> 営業データを生成 AI で分析し、質起因の失注要因を可視化するプロダクト。初期調査・要件定義フェーズの立ち上げを単独でリード
+
+- **期間**: 2026 年 5 月 ～ 現在
+- **チーム規模**: 1 名（要件定義・提案・PM を単独で担当）
+
+#### 使用技術
+<p>
+<img alt="Claude" src="https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=claude&logoColor=white" />
+<img alt="Google Workspace" src="https://img.shields.io/badge/-Google_Workspace-4285F4?style=flat-square&logo=google&logoColor=white" />
+<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+<img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
+<img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+</p>
+
+初期調査・要件定義フェーズのため、実装言語とフレームワークは設計段階（TypeScript / React、Python / FastAPI、PostgreSQL + pgvector を構想）
+
+#### 担当業務
+- クライアントへのヒアリングと営業プロセスの現状分析、失注要因の構造整理
+- 要件定義書の作成（機能・非機能要件、失注可視化のスコープ策定）
+- 工数見積とスケジュール策定、成果物ベースの固定額契約の設計
+- 生成 AI によるフィージビリティ検証の設計と、ゲート判定の枠組み構築
+- 提案・見積の作成とクライアント折衝、後続フェーズを含む全体ロードマップと技術構成の提示
+
+#### 成果
+- 初回商談から要件定義・提案・見積まで上流を単独で一貫してリードし、初期フェーズの合意形成を推進
+- ゲート判定で後続フェーズの要否と規模を確定する段階投資設計により、経営層の投資判断リスクを下げる提案構造を構築
+- 複数フェーズにわたる全体ロードマップを策定し、クライアント社内の予算化と投資判断を後押し
+
+</div>
+
+---
 
 <div class="project" markdown="1">
 
@@ -192,7 +286,7 @@
 
 > ドローンの空撮映像をリアルタイムに AI 解析するクラウドプラットフォームの設計・開発
 
-- **期間**: 2026 年 2 月 ～ 現在
+- **期間**: 2026 年 2 月 ～ 2026 年 6 月
 - **チーム規模**: 5 名
 
 #### 使用技術
