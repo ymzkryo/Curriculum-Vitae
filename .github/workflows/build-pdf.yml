@@ -5,39 +5,29 @@ on:
     tags:
     - 'v*'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: build pdf and upload release
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2-beta
-        with:
-          node-version: '20'
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
       - name: Install Japanese fonts
         run: |
           sudo apt-get update
           sudo apt-get install -y fonts-noto-cjk
-      - run: npm install
+      - run: pnpm install --frozen-lockfile
       - name: build pdf
-        run: npm run build:pdf
+        run: pnpm run build:pdf
+      - name: rename asset
+        run: cp docs/README.pdf resume.pdf
       - name: create release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          name: Release ${{ github.ref_name }}
           draft: false
           prerelease: false
-      - name: upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./docs/README.pdf
-          asset_name: resume.pdf
-          asset_content_type: application/pdf
+          files: resume.pdf

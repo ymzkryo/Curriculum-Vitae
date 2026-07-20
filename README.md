@@ -21,8 +21,11 @@ Author:
 ymzkryo
 
 ```
-yarn lint --fix
-yarn build:pdf
+mise install
+pnpm install
+
+pnpm lint --fix
+pnpm build:pdf
 
 git commit -m"update"
 git tag vX.X

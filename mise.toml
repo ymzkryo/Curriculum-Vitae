@@ -1,0 +1,4 @@
+[tools]
+# Node 25 以降では md-to-pdf が依存する yargs@17 が require(ESM) の挙動変更で動作しないため LTS に固定する
+node = "24.18.0"
+pnpm = "11.15.0"

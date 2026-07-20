@@ -1,0 +1,4 @@
+# md-to-pdf が依存する puppeteer は postinstall で Chromium を取得するため、
+# pnpm のビルドスクリプト実行を明示的に許可する
+allowBuilds:
+  puppeteer: true
