@@ -175,3 +175,11 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,node
+
+### Project ###
+# md-to-pdf のビルド生成物（リリース時に CI が生成・添付する）
+docs/README.pdf
+resume.pdf
+
+# mise のローカル上書き設定
+mise.local.toml
