@@ -179,7 +179,7 @@ dist
 ### Project ###
 # md-to-pdf のビルド生成物（リリース時に CI が生成・添付する）
 docs/README.pdf
-resume.pdf
+resume_*.pdf
 
 # mise のローカル上書き設定
 mise.local.toml
