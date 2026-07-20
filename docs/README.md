@@ -35,6 +35,7 @@
 - [技術スタック](#技術スタック)
   - [言語](#言語)
   - [フレームワーク](#フレームワーク)
+  - [データベース](#データベース)
   - [インフラ・ツール](#インフラツール)
   - [AI・LLM](#aillm)
 - [職務経歴詳細](#職務経歴詳細)
@@ -90,7 +91,7 @@
 |:-----|:-----|:-------|
 | Python | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 10年 | ⭐⭐⭐ |
 | JavaScript | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ 6年 | ⭐⭐⭐ |
-| PHP | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 5年 | ⭐⭐ |
+| PHP | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ 6年 | ⭐⭐ |
 | Java | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
 | Go | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ 4年 | ⭐⭐ |
 | TypeScript | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
@@ -102,6 +103,7 @@
 <img alt="Django" src="https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=Django&logoColor=white" />
 <img alt="Flask" src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=Flask&logoColor=white" />
 <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white" />
+<img alt="Laravel" src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
 <img alt="Spring" src="https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" />
 </p>
 
@@ -110,6 +112,7 @@
 | Django | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 5年 | ⭐⭐⭐ |
 | Flask | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 5年 | ⭐⭐⭐ |
 | FastAPI | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 5年 | ⭐⭐⭐ |
+| Laravel | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
 | Spring | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
 
 **フロントエンド**
@@ -117,13 +120,15 @@
 <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
 <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
 <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=Next.js&logoColor=white" />
+<img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
 </p>
 
 | 技術 | 経験 | レベル |
 |:-----|:-----|:-------|
-| Vue.js | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
+| Vue.js | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
 | React | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
 | Next.js | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
+| Tailwind CSS | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
 
 **CMS**
 <p>
@@ -133,6 +138,22 @@
 | 技術 | 経験 | レベル |
 |:-----|:-----|:-------|
 | WordPress | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 5年 | ⭐⭐ |
+
+### データベース
+
+<p>
+<img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img alt="Oracle" src="https://img.shields.io/badge/-Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" />
+<img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+</p>
+
+| 技術 | 経験 | レベル |
+|:-----|:-----|:-------|
+| MySQL | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ 6年 | ⭐⭐⭐ |
+| PostgreSQL | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 5年 | ⭐⭐⭐ |
+| Oracle | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 2年 | ⭐⭐ |
+| Redis | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 1年 | ⭐⭐ |
 
 ### インフラ・ツール
 
@@ -170,6 +191,44 @@
 ---
 
 ## 職務経歴詳細
+
+<div class="project" markdown="1">
+
+### AI ナレッジ生成エンジンの追加開発
+
+> 資料や応対データからブロック型のワークフローで FAQ・ナレッジ・カテゴリを自動生成するエンジンを、既存の AI FAQ SaaS へ追加開発。受託側の開発者として要件整理から実装まで担当
+
+- **期間**: 2026 年 7 月 ～ 現在
+- **チーム規模**: 3 名（PO 1 名、PM 兼エンジニア 1 名、自身 1 名）
+
+#### 使用技術
+<p>
+<img alt="PHP" src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=PHP&logoColor=white" />
+<img alt="Laravel" src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
+<img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+<img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
+<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
+<img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white" />
+<img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+</p>
+
+フロントエンドは Inertia.js と Tailwind CSS、AI 処理は LangChain（OpenAI/Azure OpenAI/Anthropic/Google）と WhisperX を利用。データストアは MySQL・Redis・MinIO、リアルタイム通信は soketi（環境ごとの構成は kustomize、機密情報は External Secrets Operator で管理）
+
+#### 担当業務
+- 要件整理と仕様策定（仕様駆動開発に向けた仕様書の作成）、見積・工数算出と進行管理
+- 画面モックアップの作成と、PO へのフィードバックを反復するアジャイルな進行
+- Laravel（Inertia.js）と Vue 3 による機能実装（実行履歴の一覧、実行フローなど）
+- 既存のデザインシステムと共通コンポーネントへの準拠による画面の一貫性確保
+- AI コーディングツール（Claude Code）を活用した実装の効率化
+
+#### 成果
+- AI コーディングツールの活用により、標準工数比で約 20％減の見積を提示して受注
+- PO レビューを通過する画面モックと設計を短期間で提示し、反復により手戻りを削減
+- 大規模な既存 Laravel・Vue コードベースへ、既存の様式に整合する形で機能を追加
+
+</div>
+
+---
 
 <div class="project" markdown="1">
 
