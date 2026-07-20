@@ -2,3 +2,12 @@
 # pnpm のビルドスクリプト実行を明示的に許可する
 allowBuilds:
   puppeteer: true
+
+# md-to-pdf (puppeteer 系) が脆弱性の残る間接依存を抱えているため、修正版へ引き上げる。
+# 上流が追随したら削除してよい。ip は修正版が未リリースのため対象外。
+overrides:
+  tar-fs@^3: ^3.1.1
+  ws@^8: ^8.21.0
+  minimatch@^3: ^3.1.3
+  js-yaml@^3: ^3.15.0
+  js-yaml@^4: ^4.2.0
