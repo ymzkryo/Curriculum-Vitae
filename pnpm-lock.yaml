@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.2
       husky:
-        specifier: ^5.0.0-alpha.6
-        version: 5.2.0
+        specifier: ^9.1.7
+        version: 9.1.7
       md-to-pdf:
         specifier: ^5.2.5
         version: 5.2.5(supports-color@7.2.0)
@@ -862,9 +862,9 @@ packages:
     resolution: {integrity: sha512-wlwpilI7YdjSkWaQ/7omYBMTliDcmCN8OLihO6I9B86g06lMyAoqgoDpV0XqoaPOKj+0DIdAvnsWfyAAhmimcg==}
     engines: {node: '>= 14'}
 
-  husky@5.2.0:
-    resolution: {integrity: sha512-AM8T/auHXRBxlrfPVLKP6jt49GCM2Zz47m8G3FOMsLmTv8Dj/fKVWE0Rh2d4Qrvmy131xEsdQnb3OXRib67PGg==}
-    engines: {node: '>= 10'}
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
     hasBin: true
 
   iconv-lite@0.6.3:
@@ -3039,7 +3039,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  husky@5.2.0: {}
+  husky@9.1.7: {}
 
   iconv-lite@0.6.3:
     dependencies:
