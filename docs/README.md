@@ -38,6 +38,7 @@
   - [データベース](#データベース)
   - [インフラ・ツール](#インフラツール)
   - [AI・LLM](#aillm)
+- [個人開発](#個人開発)
 - [職務経歴詳細](#職務経歴詳細)
 
 ---
@@ -85,6 +86,7 @@
 <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />
 <img alt="Golang" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=Go&logoColor=white" />
 <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+<img alt="Rust" src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" />
 </p>
 
 | 技術 | 経験 | レベル |
@@ -95,6 +97,7 @@
 | Java | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
 | Go | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ 4年 | ⭐⭐ |
 | TypeScript | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 3年 | ⭐⭐ |
+| Rust | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 1年未満（個人開発のみ） | ⭐ |
 
 ### フレームワーク
 
@@ -187,6 +190,22 @@
 | LLM API 活用（Bedrock / Claude） | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 1年 | ⭐⭐ |
 | RAG・ベクトル DB | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 1年 | ⭐⭐ |
 | オンプレミス LLM 推論基盤（vLLM） | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 1年未満 | ⭐ |
+
+---
+
+## 個人開発
+
+**業務では使っていないが、日常的に使うツールを Rust で書いている。**
+
+<p>
+<img alt="Rust" src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+</p>
+
+- ノート・タスク管理（GTD ワークフロー）の CLI
+- Google Calendar から外部 MTG を設定できる時間帯を算出する CLI（1Password・祝日 API と連携）
+- 内閣府データを元にした日本の祝日 API とその CLI
+
+いずれも自分が毎日使うために書いたもので、継続的に手を入れている。
 
 ---
 
